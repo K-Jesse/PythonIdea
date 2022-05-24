@@ -7,3 +7,5 @@ Seuraavaksi kokeillaan toimiiko kyseinen django asennus. Tehdään siis uusi pro
 ## B. (Update: tämä kohta muutettiin vapaaehtoiseksi) Lisää omia kenttiä malliin.
 
 ## C. Tee lisää käyttäjiä, jotka saavat kirjautua Djangon adminiin
+
+Otetaan admin käyttöön tekemällä migraatiot `./manage.py makemigrations` `./manage.py migrate` ja luomalla superuser `./manage.py createsuperuser`. Käynnistetään seuraavaksi vielä palvelin uudestaan ja katotaan päästäänkö käsiksi admin paneeliin uusilla tunnuksilla. ![image](https://i.imgur.com/lLtR9CY.jpg) Näyttäisi toimivan.
