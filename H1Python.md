@@ -9,3 +9,10 @@ Seuraavaksi kokeillaan toimiiko kyseinen django asennus. Tehdään siis uusi pro
 ## C. Tee lisää käyttäjiä, jotka saavat kirjautua Djangon adminiin
 
 Otetaan admin käyttöön tekemällä migraatiot `./manage.py makemigrations` `./manage.py migrate` ja luomalla superuser `./manage.py createsuperuser`. Käynnistetään seuraavaksi vielä palvelin uudestaan ja katotaan päästäänkö käsiksi admin paneeliin uusilla tunnuksilla. ![image](https://i.imgur.com/lLtR9CY.jpg) Näyttäisi toimivan.
+
+## Lähteet
+
+[Django 4 Instant Customer Database Tutorial](https://terokarvinen.com/2022/django-instant-crm-tutorial/))
+[Python Web Service From Idea to Production](https://terokarvinen.com/2021/python-web-service-from-idea-to-production-2022/#pw1-hello-dj-a)
+[Markdown](https://commonmark.org/help/)
+[Publish Your Project with GitHub](https://terokarvinen.com/2016/publish-your-project-with-github/?fromSearch=git)
